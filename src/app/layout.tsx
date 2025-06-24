@@ -60,10 +60,16 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: '/images/yunusemrelogo.png',
+        url: '/images/yunusemresitekimligi.png',
         width: 1200,
         height: 630,
-        alt: 'Yunus Emre Duran - Web Developer & Data Analyst',
+        alt: 'Yunus Emre Duran - Web Developer & Data Analyst Portfolio',
+      },
+      {
+        url: '/images/yunusemrelogo.png',
+        width: 800,
+        height: 400,
+        alt: 'Yunus Emre Duran Logo',
       },
       {
         url: '/images/profile.jpg',
@@ -77,7 +83,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Yunus Emre Duran | Web Developer & Data Analyst",
     description: "Antalya merkezli Web Developer ve Data Analyst. Modern web çözümleri ve veri analizi uzmanı.",
-    images: ['/images/yunusemrelogo.png'],
+    images: ['/images/yunusemresitekimligi.png'],
   },
   robots: {
     index: true,
