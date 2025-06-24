@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yunus Emre Duran
 
-## Getting Started
+**Web Developer & Data Analyst**
 
-First, run the development server:
+## 👨‍💻 Hakkımda
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Merhaba! Ben Yunus Emre Duran. Web geliştirme ve veri analizi alanlarında uzmanlaşmış bir yazılım geliştiricisiyim. Modern teknolojiler kullanarak kullanıcı dostu web uygulamaları geliştiriyorum ve verilerden anlamlı çıkarımlar yapıyorum.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎓 Eğitim
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Yüksek Lisans** - Veri Analitiği, Akdeniz Üniversitesi (2023-Devam ediyor)
+- **Ön Lisans** - Bilgisayar Programcılığı, İstanbul Biruni Üniversitesi (2021-2023)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💼 İş Deneyimi
 
-## Learn More
+### Web Developer & Data Analyst
+**Freelance** | 2022 - Devam ediyor
+- Modern web uygulamaları geliştirme
+- Veri analizi ve görselleştirme projeleri
+- E-ticaret platformları geliştirme
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Yetenekler
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Web Geliştirme
+- HTML5, CSS3, JavaScript
+- React, Next.js
+- Node.js, Express
+- Bootstrap, Tailwind CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Veri Analizi
+- Python (Pandas, NumPy, Matplotlib)
+- SQL (MySQL, PostgreSQL)
+- Power BI, Excel
+- Machine Learning temel bilgileri
 
-## Deploy on Vercel
+### Diğer
+- Git & GitHub
+- Responsive Design
+- SEO Optimizasyonu
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏆 Sertifikalar
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Microsoft Power BI Data Analyst** - Microsoft (2023)
+- **Google Analytics Certified** - Google (2023)
+- **SQL Fundamentals** - DataCamp (2022)
+- **JavaScript Algorithms and Data Structures** - freeCodeCamp (2022)
+
+## 🎯 Projeler
+
+- **Asylove** - E-ticaret platformu
+- **Grmoonde** - İçerik yönetim sistemi
+- **World Cloud Creator** - Kelime bulutu oluşturucu
+- **Rice Grading Model** - Makine öğrenmesi projesi
+
+## 🎨 Hobiler
+
+- 📚 Kitap okuma
+- 🎮 Video oyunları
+- 🏃‍♂️ Koşu
+- 🎵 Müzik dinleme
+- 💻 Yeni teknolojileri öğrenme
+
+## 📞 İletişim
+
+- **Email**: yucemahmuteren@gmail.com
+- **LinkedIn**: [yunusemreduran](https://linkedin.com/in/yunusemreduran)
+- **GitHub**: [yunusemreduran](https://github.com/yunusemreduran)
+- **Website**: [yunusemreduran.com](https://yunusemreduran.com)
+
+---
+
+💡 *"Kodlama sadece bir araç, asıl önemli olan çözüm üretmek ve hayatı kolaylaştırmak."*

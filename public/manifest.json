@@ -1,0 +1,104 @@
+{
+  "name": "Yunus Emre Duran - Web Developer & Data Analyst",
+  "short_name": "YE Duran",
+  "description": "İstanbul merkezli Web Developer ve Data Analyst Yunus Emre Duran'ın portfolio sitesi. Modern web çözümleri ve veri analizi uzmanı.",
+  "theme_color": "#C64A00",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/favicon.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/favicon.png", 
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/favicon.png",
+      "sizes": "128x128", 
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/favicon.png",
+      "sizes": "144x144",
+      "type": "image/png", 
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/favicon.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/favicon.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/favicon.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["business", "productivity", "portfolio"],
+  "lang": "tr",
+  "dir": "ltr",
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "İletişim",
+      "short_name": "Contact",
+      "description": "Yunus Emre Duran ile iletişime geçin",
+      "url": "/#contact",
+      "icons": [
+        {
+          "src": "/images/favicon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Projeler",
+      "short_name": "Projects", 
+      "description": "Portfolio projelerini görüntüleyin",
+      "url": "/#projects",
+      "icons": [
+        {
+          "src": "/images/favicon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Hakkımda",
+      "short_name": "About",
+      "description": "Yunus Emre Duran hakkında bilgi alın",
+      "url": "/#about", 
+      "icons": [
+        {
+          "src": "/images/favicon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+} 
