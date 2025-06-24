@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Yunus Emre Duran | Web Developer & Data Analyst",
-    description: "İstanbul merkezli Web Developer ve Data Analyst. Modern web çözümleri, veri analizi projeleri ve freelance hizmetler. Portfolio ve iletişim için ziyaret edin.",
+    description: "Antalya merkezli Web Developer ve Data Analyst. Modern web çözümleri, veri analizi projeleri ve freelance hizmetler. Portfolio ve iletişim için ziyaret edin.",
     url: "https://yunusemreduran.com",
     siteName: "Yunus Emre Duran Portfolio",
     locale: "tr_TR",
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Yunus Emre Duran | Web Developer & Data Analyst",
-    description: "İstanbul merkezli Web Developer ve Data Analyst. Modern web çözümleri ve veri analizi uzmanı.",
+    description: "Antalya merkezli Web Developer ve Data Analyst. Modern web çözümleri ve veri analizi uzmanı.",
     images: ['/images/yunusemrelogo.png'],
   },
   robots: {
