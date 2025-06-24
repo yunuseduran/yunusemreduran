@@ -374,7 +374,7 @@ export const translations = {
         },
         {
           label: 'Age',
-          value: '22'
+          value: '27'
         },
         {
           label: 'Location',
