@@ -100,6 +100,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: '/favicon.ico', sizes: 'any' },
       { url: '/images/favicon.png', sizes: '32x32', type: 'image/png' },
       { url: '/images/favicon.png', sizes: '16x16', type: 'image/png' },
     ],
@@ -141,8 +142,9 @@ export default function RootLayout({
     <html lang="tr" className={`${inter.variable} ${poppins.variable}`}>
       <head>
         {/* Primary Favicon */}
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/images/favicon.png" type="image/png" />
-        <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
         
         {/* Apple Touch Icons */}
         <link rel="apple-touch-icon" href="/images/favicon.png" />
