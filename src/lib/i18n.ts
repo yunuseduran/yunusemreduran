@@ -653,6 +653,19 @@ export const translations = {
 
 export type TranslationKeys = typeof translations.tr
 
+// Türkçe karakter dönüşüm fonksiyonu
+export function toTurkishUpperCase(text: string): string {
+  return text
+    .replace(/ı/g, 'I')
+    .replace(/i/g, 'İ')
+    .replace(/ü/g, 'Ü')
+    .replace(/ö/g, 'Ö')
+    .replace(/ş/g, 'Ş')
+    .replace(/ğ/g, 'Ğ')
+    .replace(/ç/g, 'Ç')
+    .toUpperCase();
+}
+
 export function useTranslation(lang: Language = defaultLanguage) {
   return translations[lang]
 }

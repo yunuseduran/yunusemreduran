@@ -21,7 +21,7 @@ import {
   Menu,
   X
 } from 'lucide-react';
-import { Language, useTranslation } from '@/lib/i18n';
+import { Language, useTranslation, toTurkishUpperCase } from '@/lib/i18n';
 import LanguageSwitcher from './LanguageSwitcher';
 
 interface NavItem {
@@ -50,14 +50,14 @@ export default function Sidebar({ currentLang, onLanguageChange }: SidebarProps)
   const [activeSection, setActiveSection] = useState('about');
   
   const navigationItems: NavItem[] = [
-    { label: t.nav.about.toUpperCase(), href: '#about', icon: User },
-    { label: t.nav.experience.toUpperCase(), href: '#experience', icon: Briefcase },
-    { label: t.nav.education.toUpperCase(), href: '#education', icon: GraduationCap },
-    { label: t.nav.services.toUpperCase(), href: '#services', icon: Settings },
-    { label: t.nav.projects.toUpperCase(), href: '#projects', icon: FolderOpen },
-    { label: t.nav.skills.toUpperCase(), href: '#skills', icon: Code },
-    { label: t.nav.certificates.toUpperCase(), href: '#certificates', icon: Award },
-    { label: t.nav.contact.toUpperCase(), href: '#contact', icon: Mail },
+    { label: currentLang === 'tr' ? toTurkishUpperCase(t.nav.about) : t.nav.about.toUpperCase(), href: '#about', icon: User },
+    { label: currentLang === 'tr' ? toTurkishUpperCase(t.nav.experience) : t.nav.experience.toUpperCase(), href: '#experience', icon: Briefcase },
+    { label: currentLang === 'tr' ? toTurkishUpperCase(t.nav.education) : t.nav.education.toUpperCase(), href: '#education', icon: GraduationCap },
+    { label: currentLang === 'tr' ? toTurkishUpperCase(t.nav.services) : t.nav.services.toUpperCase(), href: '#services', icon: Settings },
+    { label: currentLang === 'tr' ? toTurkishUpperCase(t.nav.projects) : t.nav.projects.toUpperCase(), href: '#projects', icon: FolderOpen },
+    { label: currentLang === 'tr' ? toTurkishUpperCase(t.nav.skills) : t.nav.skills.toUpperCase(), href: '#skills', icon: Code },
+    { label: currentLang === 'tr' ? toTurkishUpperCase(t.nav.certificates) : t.nav.certificates.toUpperCase(), href: '#certificates', icon: Award },
+    { label: currentLang === 'tr' ? toTurkishUpperCase(t.nav.contact) : t.nav.contact.toUpperCase(), href: '#contact', icon: Mail },
   ];
 
   const handleNavClick = (href: string) => {
@@ -210,7 +210,7 @@ export default function Sidebar({ currentLang, onLanguageChange }: SidebarProps)
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
-                    {t.sidebar.downloadCV.toUpperCase()}
+                    {currentLang === 'tr' ? toTurkishUpperCase(t.sidebar.downloadCV) : t.sidebar.downloadCV.toUpperCase()}
                   </motion.a>
                 </motion.div>
               </div>
@@ -359,7 +359,7 @@ export default function Sidebar({ currentLang, onLanguageChange }: SidebarProps)
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
-              {t.sidebar.downloadCV.toUpperCase()}
+              {currentLang === 'tr' ? toTurkishUpperCase(t.sidebar.downloadCV) : t.sidebar.downloadCV.toUpperCase()}
             </motion.a>
           </motion.div>
         </div>
