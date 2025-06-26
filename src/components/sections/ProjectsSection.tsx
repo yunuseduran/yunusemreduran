@@ -67,7 +67,7 @@ export default function ProjectsSection({ lang }: ProjectsSectionProps) {
             ? 'Antalya\'da işitme cihazları satışı yapan özel merkez için geliştirilmiş modern web sitesi. Ürün katalogu, hizmet tanıtımı ve müşteri bilgilendirme odaklı kullanıcı deneyimi.'
             : 'Modern website developed for a specialized center selling hearing aids in Antalya. User experience focused on product catalog, service introduction and customer information.',
           technologies: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
-          url: '#'
+          url: 'https://portakalisitme.com'
         },
         {
           name: lang === 'tr' ? 'Antalya Vitrini' : 'Antalya Showcase',
@@ -75,7 +75,7 @@ export default function ProjectsSection({ lang }: ProjectsSectionProps) {
             ? 'Antalya şehrinin işletme ve hizmet sektörü için tasarlanmış vitrin platformu. Yerel işletmelerin dijital varlığını güçlendiren kapsamlı web portalı.'
             : 'Showcase platform designed for Antalya\'s business and service sector. Comprehensive web portal strengthening the digital presence of local businesses.',
           technologies: ['WordPress', 'PHP', 'MySQL', 'Custom Themes'],
-          url: 'https://vitrini.com'
+          url: 'https://antalyavitrini.com'
         }
       ]
     },
